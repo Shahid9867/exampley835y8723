@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <button onclick="increaseLikes()">like</button> 
+<button onclick="decreaseLikes()">dislike</button> 
+ 
+<script type="text/javascript"> 
+let counter = 0; 
+function increaseLikes(){ 
+counter++; 
+console.log(counter); 
+} 
+ 
+function decreaseLikes(){ 
+counter--; 
+if(counter<0){
+    counter=0
+}
+console.log(counter); 
+} 
+</script>  -->
+    <!-- <script type="text/javascript">
+    //execution context
+    // let golobal = "added";
+    // function a(){
+    //     let fa = "Hi hereis the starting";
+    //     debugger;
+    //     b();
+    //     console.log("This is the ending after certain execution call");
+    // }
+
+    // function b(){
+    //     debugger;
+    //     console.log("Hi this second call");
+    //     c();
+    // }
+
+    // function c(){
+    //     debugger;
+    //     console.log("HI this is the third call");
+    // }
+
+    // a();
+    // console.log("the end of all execution context");
+</script> -->
+    <!-- <p id="shahid">Shahid</p>
+    <p class="tech">A programmmer</p>
+    <p class="tech">A programmmer1</p>
+    <p class="tech">A programmmer2</p> -->
+    <!-- <button onclick="clearInterval(clock)">Click me</button><br> -->
+    <!-- <p id="showClock"></p> -->
+    <script type="text/javascript">
+        // let clock = setInterval(clocktiming, 1000);
+
+        // function clocktiming(){
+        // let d = new Date();
+        // let shah = d.toLocaleTimeString();
+        // document.getElementById('showClock').innerHTML= shah;
+        // }  
+    </script>
+
+ <script type="text/javascript">
+    // let a = document.getElementById("shahid").innerHTML;
+    // document.write(a)
+    </script>
+
+    <!-- <script type="text/javascript">
+        let b = document.getElementsByClassName("tech")[0].innerHTML;
+        document.write(b);
+    </script>
+    <br><br> -->
+
+    <!-- <script type="text/javascript">
+        let c = document.getElementsByTagName("p");
+        document.write(c);
+        console.log(c);
+    </script>
+<br><br> -->
+    <!-- <script type="text/javascript">
+        let d = document.querySelector("p").innerHTML;
+        document.write(d);
+    </script> -->
+<!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ad laborum, ea officiis, iusto sit corrupti dignissimos tempore quis dolore nostrum esse possimus odio quae molestias eveniet in reiciendis. Nihil dicta quasi tenetur quia enim doloremque modi id ullam fuga inventore incidunt atque, a, iure totam et laudantium odit natus commodi ab distinctio ratione, eligendi neque quidem dolorem? Et recusandae molestias, ipsam natus reiciendis maiores aut pariatur nesciunt accusantium odio harum sapiente vel inventore sed vitae aspernatur dignissimos ullam, sunt maxime praesentium, incidunt necessitatibus tenetur. Nostrum, eaque animi corrupti voluptatibus voluptates quasi dolores nulla voluptatem? Eaque laboriosam nobis et sapiente.</p>
+    <h1>Welcome guys I am Shaikh Shahid</h1>
+    <button onclick="myfunc()">Click Me </button>
+    <button onclick="mytwitter()">Click Me </button>
+    <button onclick="myinsta()">Click Me </button>
+    <button onclick="mygithub()">Click Me </button> -->
+    <!-- <p>onmouseevent
+        eg1:1-onmousedown; onmouseenter; onmouseup; onmouseout...
+    </p> -->
+    <!-- <button onmousedown="myfunc()">Click Me </button>
+    <button onmouseenter="mytwitter()">Click Me </button>
+    <button onmouseup="myinsta()">Click Me </button>
+    <button onmouseout="mygithub()">Click Me </button> -->
+<!-- <p>onkeyevemt</p>
+    <button onkeydown="myfunc()">Click Me </button>
+    <button onkeypress="mytwitter()">Click Me </button>
+    <button onkeyup="myinsta()">Click Me </button>
+    <button onmouseout="mygithub()">Click Me </button> -->
+
+    <!-- <script type="text/javascript">
+       
+        function myfunc(){
+            document.body.style.backgroundColor = 'black';
+        document.body.style.color = 'white';
+        }
+        function mytwitter(){
+            document.body.style.backgroundColor = '#1077e6';
+        document.body.style.color = 'white';
+        }
+        function myinsta(){
+            document.body.style.backgroundColor = '#FD1D1D';
+        document.body.style.color = 'white';
+        }
+        function mygithub(){
+            document.body.style.backgroundColor = 'grey';
+        document.body.style.color = 'yellow';
+        }
+    
+        
+    </script>
+< -->
+
+<!-- <h1>Welcome to the Unbuntu Channel</h1>
+<p>Welcome to the Javascript</p>
+<div id="testing">HI this i some random text inside div id testing</div>
+<div class="classtest">This is some text in div class classtest</div>
+<p class="classtest">This is the paragraph which have class test</p>
+<div class="classtest">Hello</div>
+<script src="./practice.js"></script> -->
+<script>
+    // const myName = () =>{
+    //         return "Hello";
+    //     }
+    //     const greeting = (sayhi,name) => {
+    //         console.log(sayhi()+" "+name);
+    //     }
+    //     greeting(myName,"Shahid");
+
+    function outer(){
+        return function inner() {
+            console.log("Returning sometext from innerfunction when it is called");
+        }
+    }
+
+   let a =  outer();
+</script>
+       
+</body>
+</html>
